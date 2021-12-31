@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Undangan Pernikahan - Erpan & Fitri</title>
     <meta name="description" content="Spesial mengundang untuk menghadiri pernikahan kami. Erpan - Fitri" />
-    <meta name="keywords"
-        content="undangan digital, undangan online, undangan nikah, website undangan, pernikahan, wedding, marriage" />
+    <meta name="keywords" content="undangan digital, undangan online, undangan nikah, website undangan, pernikahan, wedding, marriage" />
     <meta name="author" content="nikahankami (admin@nikahankami.com)" />
     <meta name="robots" content="follow, index" />
     <meta property="og:image" content="./assets/image/pengantin/demoogthumbnail.jpg">
@@ -26,17 +25,17 @@
     <script type="text/javascript" src="./assets/js/jquery-1.8.2.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <script type='text/javascript'>
-        $(function () {
+        $(function() {
             var overlay = $('<div id="overlay"></div>');
             overlay.show();
             overlay.appendTo(document.body);
             $('.popup').show();
-            $('.close').click(function () {
+            $('.close').click(function() {
                 $('.popup').hide();
                 overlay.appendTo(document.body).remove();
                 return false;
             });
-            $('.x').click(function () {
+            $('.x').click(function() {
                 $('.popup').hide();
                 overlay.appendTo(document.body).remove();
                 return false;
@@ -57,12 +56,10 @@
             <p class="imgopenint"><img class='close' src="./assets/image/pengantin/1.png" style="text-align: center">
             </p>
 
-            
-            <p style="text-align: center; line-height: normal; margin-bottom:-10px; color: white">Kepada Yth.<br><span
-                    style="font-size:12px">Bapak/Ibu/Saudara/i</span></p>
-            <p style="color: #404040; font-size: 20px; color: white; padding-bottom:10px; border-radius:4px; text-align: center"
-                id="write"></p>
-            
+
+            <p style="text-align: center; line-height: normal; margin-bottom:-10px; color: white">Kepada Yth.<br><span style="font-size:12px">Bapak/Ibu/Saudara/i</span></p>
+            <p style="color: #404040; font-size: 20px; color: white; padding-bottom:10px; border-radius:4px; text-align: center" id="write"></p>
+
             <p><a href='' id="unmute-sound" class='close'>Buka Undangan</a></p>
             <div style="clear: both;"></div>
             <p><img src="" width="60%" style="transform: rotate(180deg); text-align: center"></p>
@@ -86,14 +83,10 @@
     <div class="iconbar">
         <a class="tablink" onclick="openPage('Cover', this, '#3E3E3E')" id="defaultOpen">
             <img src="./assets/image/web/min/de17tab1cover.png" width="35"><br><span>Home</span></a>
-        <a class="tablink" onclick="openPage('Couple', this, '#3E3E3E')"><img
-                src="./assets/image/web/min/de17tab2couple.png" width="35"><br><span>Couple</span></a>
-        <a class="tablink" onclick="openPage('Eventwd', this, '#3E3E3E')"><img
-                src="./assets/image/web/min/de17tab3event.png" width="35"><br><span>Event</span></a>
-        <a class="tablink" onclick="openPage('Moment', this, '#3E3E3E')"><img
-                src="./assets/image/web/min/de17tab4moment.png" width="35"><br><span>Moment</span></a>
-        <a class="tablink" onclick="openPage('Quotewd', this, '#3E3E3E')"><img
-                src="./assets/image/web/min/de17tab5story.png" width="35"><br><span>Story+Wish</span></a>
+        <a class="tablink" onclick="openPage('Couple', this, '#3E3E3E')"><img src="./assets/image/web/min/de17tab2couple.png" width="35"><br><span>Couple</span></a>
+        <a class="tablink" onclick="openPage('Eventwd', this, '#3E3E3E')"><img src="./assets/image/web/min/de17tab3event.png" width="35"><br><span>Event</span></a>
+        <a class="tablink" onclick="openPage('Moment', this, '#3E3E3E')"><img src="./assets/image/web/min/de17tab4moment.png" width="35"><br><span>Moment</span></a>
+        <a class="tablink" onclick="openPage('Quotewd', this, '#3E3E3E')"><img src="./assets/image/web/min/de17tab5story.png" width="35"><br><span>Story+Wish</span></a>
     </div>
 
     <div id="Cover" class="tabcontent">
@@ -277,8 +270,7 @@
                                 <div class="containerijabwd">
                                     <table style="color: white;">
                                         <tr>
-                                            <th style="width: 20%"><img src="./assets/image/web/min/de8wdakad.png"
-                                                    width="100%">
+                                            <th style="width: 20%"><img src="./assets/image/web/min/de8wdakad.png" width="100%">
                                             </th>
                                             <th></th>
                                             <th style="width: 80%">
@@ -349,14 +341,12 @@
                                     <table align="right" style="color: white;">
                                         <tr>
                                             <th align="right" style="width: 80%;">
-                                                <p
-                                                    style="font-size: 18px; font-family: dosis; color: white; text-align: right;">
+                                                <p style="font-size: 18px; font-family: dosis; color: white; text-align: right;">
                                                     <b>Resepsi Pernikahan</b>
                                                 </p>
                                             </th>
                                             <th></th>
-                                            <th style="width: 20%"><img src="./assets/image/web/min/de8wdresepsi.png"
-                                                    width="100%">
+                                            <th style="width: 20%"><img src="./assets/image/web/min/de8wdresepsi.png" width="100%">
                                             </th>
                                         </tr>
                                         <tr align="right">
@@ -410,9 +400,7 @@
                                             <td></td>
                                         </tr>
                                         <tr align="right">
-                                            <td><a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MjNtdjU4dTNxazQ1dGhtdGk2aWVtYmozczEgYmxrb2M5ZHFvcGs3a2trNm9nNnAzNDlzaDRAZw&tmsrc=blkoc9dqopk7kkk6og6p349sh4%40group.calendar.google.com"
-                                                    target="_blank"
-                                                    style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>SaveTheDate</strong></a>
+                                            <td><a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=Nmc3Zmg0MW5jbDZubzYzcGUxNm9ocXVyMWwgcmlvYW5hbmRhcHV0cmExOTk4QG0&tmsrc=rioanandaputra1998%40gmail.com" target="_blank" style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>SaveTheDate <i class="fa fa-bell" aria-hidden="true"></i></strong></a>
                                             </td>
                                             <td></td>
                                             <td></td>
@@ -426,10 +414,32 @@
                 </div>
                 <div style="clear:both"></div>
                 <br>
-                <div class="explainbride"
-                    style="background-color: #2A2A2A; width: 100%; margin: auto; box-shadow: 1px 1px 5px #212121; padding: 10px; border-radius: 10px; color: white;">
-                    <p><i style="color: white;" class="fa fa-heart"></i><br>
-                        Guna mencegah penularan covid-19 kami harapkan kedatangan para tamu undangan tetap menerapkan
+                <div class="explainbride" style="background-color: #2A2A2A; width: 100%; margin: auto; box-shadow: 1px 1px 5px #212121; padding: 10px; border-radius: 10px; color: white;">
+                    <p style="font-size: 18px;"><b>Siaran Langsung</b></p>
+                    <p>Temui kami secara virtual untuk menyaksikan acara pernikahan kami yang akan disiarkan langsung, dengan menekan tombol di bawah ini:</p>
+                    <a href="https://zoom.us/" target="_blank"><img src="./assets/image/web/max/zoomapp.png" width="100px"></a><br><br>
+                    <!-- <p>Zoom Meeting ID : 12345<br>Zoom Password : 12345</p><br> -->
+                    <a href="https://www.youtube.com/" target="_blank"><img src="./assets/image/web/max/ytlogo.png" width="100px"></a><br><br>
+
+                    <!-- <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=Nmc3Zmg0MW5jbDZubzYzcGUxNm9ocXVyMWwgcmlvYW5hbmRhcHV0cmExOTk4QG0&tmsrc=rioanandaputra1998%40gmail.com" target="_blank" style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>Zoom Live <i class="fa fa-link" aria-hidden="true"></i></strong></a> -->
+                </div>
+                <br>
+                <div class="explainbride" style="background-color: #2A2A2A; width: 100%; margin: auto; box-shadow: 1px 1px 5px #212121; padding: 10px; border-radius: 10px; color: white;">
+                    <p style="font-size: 18px;"><b>Kirim Hadiah</b></p>
+                    <p>Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami, dapat melalui:</p>
+                    <a href="https://zoom.us/" target="_blank"><img src="./assets/image/web/max/bri.png" width="100px"></a><br>
+                    <p style="font-size: 18px;" id="norekening">028501053392509</p>
+                    <button onclick="btnRek()" style="background-color: #cf5f9e; font-family: dosis; font-size: 18px; color: white; padding: 10px 10px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"> <i class="fa fa-clipboard" aria-hidden="true"></i> Copy Rekening</button>
+
+                    <!-- <p>Zoom Meeting ID : 12345<br>Zoom Password : 12345</p><br> -->
+                    <!-- <a href="https://www.youtube.com/" target="_blank"><img src="./assets/image/web/max/ytlogo.png" width="100px"></a><br><br> -->
+
+                    <!-- <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=Nmc3Zmg0MW5jbDZubzYzcGUxNm9ocXVyMWwgcmlvYW5hbmRhcHV0cmExOTk4QG0&tmsrc=rioanandaputra1998%40gmail.com" target="_blank" style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>Zoom Live <i class="fa fa-link" aria-hidden="true"></i></strong></a> -->
+                </div>
+                <br>
+                <div class="explainbride" style="background-color: #2A2A2A; width: 100%; margin: auto; box-shadow: 1px 1px 5px #212121; padding: 10px; border-radius: 10px; color: white;">
+                    <p style="font-size: 18px;"><b>Protokol Kesehatan <i style="color: white;" class="fa fa-heart"></i></b></p>
+                    <p>Guna mencegah penularan covid-19 kami harapkan kedatangan para tamu undangan tetap menerapkan
                         protokol yang berlaku :
                     </p>
                     <div style="padding:5px; border-bottom:1px solid #c7c7c7;">
@@ -469,17 +479,9 @@
                     Bapak/Ibu/Saudara(i)<br>berkenan untuk hadir dan memberikan do'a restu<br>kepada kedua mempelai.</p>
                 <br>
                 <div>
-                    <!-- <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.911837163143!2d105.20239821476531!3d-5.43036199606163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40d0bda1dddef5%3A0xd5fc8feda57f2461!2sPT.%20Prabu%20Tirta%20Jaya%20Lestari%20Tbk!5e0!3m2!1sid!2sid!4v1640442135463!5m2!1sid!2sid"
-                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
-                    <!-- <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.8005853713566!2d110.21351231477622!3d-7.487258394599172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8f6aa5ee45b3%3A0xdc07f0e500ac48d6!2sGedung%20Jenderal%20Achmad%20Yani%20Magelang!5e0!3m2!1sid!2sid!4v1610687413981!5m2!1sid!2sid"
-                        width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe> -->
-
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.911837163143!2d105.20239821476531!3d-5.43036199606163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40d0bda1dddef5%3A0xd5fc8feda57f2461!2sPT.%20Prabu%20Tirta%20Jaya%20Lestari%20Tbk!5e0!3m2!1sid!2sid!4v1640442135463!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div><a href="https://goo.gl/maps/muLvgtps7wonu7eg6" target="_blank"
-                        style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 30px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>OpenMap</strong></a>
+                <div><a href="https://goo.gl/maps/muLvgtps7wonu7eg6" target="_blank" style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 30px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>OpenMaps <i class="fa fa-map-marker" aria-hidden="true"></i></strong></a>
                 </div>
                 <br>
                 <br>
@@ -546,10 +548,7 @@
                     </div>
                     <div class="w3-row w3-grayscale-min">
                         <div class="vidline">
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/9tCFRiUFTwk"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/9tCFRiUFTwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <!-- <video width="100%" controls loop autoplay>
                                 <source src="./assets/video/sample.mp4" type="video/mp4">
                                 <source src="video.ogg" type="video/ogg">
@@ -557,32 +556,25 @@
                             </video><br><br> -->
                         </div>
                         <div class="w3-half">
-                            <img src="./assets/image/pengantin/a.jpeg" style="width:100%" onclick="onClick(this)"
-                                alt="ErpanFitri">
-                            <img src="./assets/image/pengantin/c.jpeg" style="width:100%" onclick="onClick(this)"
-                                alt="ErpanFitri">
-                            <img src="./assets/image/pengantin/e.jpeg" style="width:100%" onclick="onClick(this)"
-                                alt="ErpanFitri">
+                            <img src="./assets/image/pengantin/a.jpeg" style="width:100%" onclick="onClick(this)" alt="ErpanFitri">
+                            <img src="./assets/image/pengantin/c.jpeg" style="width:100%" onclick="onClick(this)" alt="ErpanFitri">
+                            <img src="./assets/image/pengantin/e.jpeg" style="width:100%" onclick="onClick(this)" alt="ErpanFitri">
                             <!-- <img src="./assets/image/pengantin/d.jpeg" style="width:100%" onclick="onClick(this)"
                                 alt="ErpanFitri">
                             <img src="./assets/image/pengantin/e.jpeg" style="width:100%" onclick="onClick(this)"
                                 alt="ErpanFitri"> -->
                         </div>
                         <div class="w3-half">
-                            <img src="./assets/image/pengantin/b.jpeg" style="width:100%" onclick="onClick(this)"
-                                alt="ErpanFitri">
-                            <img src="./assets/image/pengantin/d.jpeg" style="width:100%" onclick="onClick(this)"
-                                alt="ErpanFitri">
-                            <img src="./assets/image/pengantin/f.jpeg" style="width:100%" onclick="onClick(this)"
-                                alt="ErpanFitri">
+                            <img src="./assets/image/pengantin/b.jpeg" style="width:100%" onclick="onClick(this)" alt="ErpanFitri">
+                            <img src="./assets/image/pengantin/d.jpeg" style="width:100%" onclick="onClick(this)" alt="ErpanFitri">
+                            <img src="./assets/image/pengantin/f.jpeg" style="width:100%" onclick="onClick(this)" alt="ErpanFitri">
                             <!-- <img src="./assets/image/pengantin/i.jpeg" style="width:100%" onclick="onClick(this)"
                                 alt="ErpanFitri">
                             <img src="./assets/image/pengantin/j" style="width:100%" onclick="onClick(this)"
                                 alt="ErpanFitri"> -->
                         </div>
                     </div>
-                    <div id="modal01" class="w3-modal w3-black" style="padding-top:0;"
-                        onclick="this.style.display='none'">
+                    <div id="modal01" class="w3-modal w3-black" style="padding-top:0;" onclick="this.style.display='none'">
                         <span class="w3-button w3-black w3-xlarge w3-display-topleft">×</span>
                         <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
                             <img id="img01" class="w3-image">
@@ -697,14 +689,23 @@
                     </div>
                     <div class="wishspace">
                         <div class="wishcontainer">
-                            <form action="" method="post">
-                                <label for="nama" style="color:white;">Nama</label>
-                                <input type="text" id="nama" name="nama" placeholder="Nama.." required>
-
-                                <label for="ucap" style="color:white;">Ucapan</label>
-                                <textarea id="ucap" name="ucap" placeholder="Ucapan Doa & Harapan.."
-                                    style="height:100px" required></textarea>
-                                <input type="submit" name="submit" value="Send">
+                            <form action="" method="post" id="formWish" onsubmit="return false">
+                                <label for="name" style="color:white;">Nama</label>
+                                <input type="text" id="name" name="name" placeholder="Nama.." required>
+                                <label for="presence" style="color:white;">Konfirmasi Kehadiran</label>
+                                <select name="presence" id="presence">
+                                    <option value="1">Hadir</option>
+                                    <option value="0">Tidak Bisa Hadir</option>
+                                </select>
+                                <label for="people" style="color:white;">Jumlah Yang Hadir</label>
+                                <select name="people" id="people">
+                                    <?php for ($i = 1; $i <= 10; $i++) : ?>
+                                        <option value="<?= $i; ?>"><?= $i; ?></option>
+                                    <?php endfor; ?>
+                                </select>
+                                <label for="wish" style="color:white;">Ucapan</label>
+                                <textarea id="wish" name="wish" placeholder="Ucapan Doa & Harapan.." style="height:100px" required></textarea>
+                                <button type="submit" name="submit" id="btnWish" onclick="saveWish()" style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; width:100%; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; padding:10px;">Kirim <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                             </form>
                         </div>
                         <br>
@@ -714,8 +715,7 @@
                                     <td valign="top">
                                         <img src="./assets/image/web/min/dep8wish4ava.png" width="25px">
                                     </td>
-                                    <td
-                                        style="background-color: #2A2A2A; color: white; padding-left: 8px; padding-right: 8px; border-radius: 4px; width: 100%">
+                                    <td style="background-color: #2A2A2A; color: white; padding-left: 8px; padding-right: 8px; border-radius: 4px; width: 100%">
                                         <div class="wishdisplayname"></div>
                                         <div class="" style="padding-bottom: 10px"></div>
                                     </td>
@@ -759,19 +759,19 @@
 
 
         document.getElementById('mute-sound').style.display = 'none';
-        document.getElementById('unmute-sound').addEventListener('click', function (event) {
+        document.getElementById('unmute-sound').addEventListener('click', function(event) {
             document.getElementById('unmute2-sound').style.display = 'none';
             document.getElementById('mute-sound').style.display = 'inline-block';
             document.getElementById('song').play();
         });
 
-        document.getElementById('unmute2-sound').addEventListener('click', function (event) {
+        document.getElementById('unmute2-sound').addEventListener('click', function(event) {
             document.getElementById('unmute2-sound').style.display = 'none';
             document.getElementById('mute-sound').style.display = 'inline-block';
             document.getElementById('song').play();
         });
 
-        document.getElementById('mute-sound').addEventListener('click', function (event) {
+        document.getElementById('mute-sound').addEventListener('click', function(event) {
             document.getElementById('mute-sound').style.display = 'none';
             document.getElementById('unmute2-sound').style.display = 'inline-block';
             document.getElementById('song').pause();
@@ -799,7 +799,7 @@
 
         var deadline = new Date("january 09, 2022 09:00:00").getTime();
 
-        var x = setInterval(function () {
+        var x = setInterval(function() {
 
             var now = new Date().getTime();
             var t = deadline - now;
@@ -840,11 +840,62 @@
         }
 
         if (!adr) {
-            document.getElementById("write").innerHTML = "<strong>" + sn + "</strong>" + "<br><span style='font-size:14px'>di Tempat</span>";    
+            document.getElementById("write").innerHTML = "<strong>" + sn + "</strong>" + "<br><span style='font-size:14px'>di Tempat</span>";
         } else {
-            document.getElementById("write").innerHTML = "<strong>" + sn + "</strong>" + "<br><span style='font-size:14px'>di "+ adr +"</span>";
+            document.getElementById("write").innerHTML = "<strong>" + sn + "</strong>" + "<br><span style='font-size:14px'>di " + adr + "</span>";
         }
+    </script>
+    <script>
+        function btnRek() {
+            var r = document.createRange();
+            r.selectNode(document.getElementById('norekening'));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(r);
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+            alert("No rekening berhasil dicopy!");
+        }
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#presence').on('change', function() {
+                if (this.value == 0 || this.value == '') {
+                    $('#people').hide();
+                } else {
+                    $('#people').show();
+                }
+            });
+        });
 
+        function saveWish() {
+            $('#btnWish').text('Mengirim...'); //change button text
+            $('#btnWish').attr('disabled', true); //set button disable 
+
+            var form = $('#formWish')[0];
+            var data = new FormData(form);
+            $.ajax({
+                type: "POST",
+                url: "api.php",
+                data: data,
+                processData: false,
+                contentType: false,
+                dataType: "JSON",
+                success: function(data) {
+                    if (data.status) {
+                        alert('Ucapan anda telah dikirim!');
+                    } else {
+                        console.log('connection failed!');
+                    }
+                    $('#btnWish').text('Kirim');
+                    $('#btnWish').attr('disabled', false);
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error(data.textStatus);
+                    $('#btnWish').text('save');
+                    $('#btnWish').attr('disabled', false);
+                }
+            });
+        }
     </script>
     <script type="text/javascript" src="./assets/js/jquery-1.10.1.min.js"></script>
 </body>

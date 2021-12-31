@@ -1,6 +1,11 @@
-<?php 
-$koneksi = mysqli_connect("localhost","root","","db_wedding");
-if (mysqli_connect_errno()){
-	echo "Koneksi database gagal : " . mysqli_connect_error();
-}
+<?php
+// Membuat variabel, ubah sesuai dengan nama host dan database pada hosting 
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "db_wedding";
+ 
+//Menggunakan objek mysqli untuk membuat koneksi dan menyimpan nya dalam variabel $mysqli 
+$mysqli = new mysqli($host, $user, $pass, $db);
+ 
 ?>

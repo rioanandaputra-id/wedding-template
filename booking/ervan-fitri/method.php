@@ -12,7 +12,7 @@ class Wedding
             $data[] = $row;
         }
         $response = array(
-            'status' => 1,
+            // 'status' => 1,
             'data' => $data
         );
         header('Content-Type: application/json');
@@ -22,12 +22,13 @@ class Wedding
     public function insert_wish()
     {
         global $mysqli;
-        $arrcheckpost = array('name' => '', 'wish' => '', 'presence' => '', 'people' => '');
+        $arrcheckpost = array('name' => '', 'address' => '', 'wish' => '', 'presence' => '', 'people' => '');
         $hitung = count(array_intersect_key($_POST, $arrcheckpost));
         if ($hitung == count($arrcheckpost)) {
 
             $result = mysqli_query($mysqli, "INSERT INTO tbl_wish SET
                name = '$_POST[name]',
+               address = '$_POST[address]',
                wish = '$_POST[wish]',
                presence = '$_POST[presence]',
                people = '$_POST[people]'");

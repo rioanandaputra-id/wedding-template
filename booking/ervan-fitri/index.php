@@ -9,13 +9,13 @@
     <meta name="keywords" content="undangan digital, undangan online, undangan nikah, website undangan, pernikahan, wedding, marriage" />
     <meta name="author" content="nikahankami (admin@nikahankami.com)" />
     <meta name="robots" content="follow, index" />
-    <meta property="og:image" content="./assets/image/pengantin/demoogthumbnail.jpg">
-    <meta property="og:image" itemprop="image" content="./assets/image/pengantin/demoogthumbnail.jpg">
-    <link itemprop="thumbnailUrl" href="./assets/image/pengantin/demoogthumbnail.jpg">
+    <meta property="og:image" content="./assets/image/pengantin/i.jpeg">
+    <meta property="og:image" itemprop="image" content="./assets/image/pengantin/i.jpeg">
+    <link itemprop="thumbnailUrl" href="./assets/image/pengantin/i.jpeg">
     <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-        <link itemprop="url" href="./assets/image/pengantin/demoogthumbnail.jpg">
+        <link itemprop="url" href="./assets/image/pengantin/i.jpeg">
     </span>
-    <meta property="og:image" content="./assets/image/pengantin/demoogthumbnail.jpg" />
+    <meta property="og:image" content="./assets/image/pengantin/i.jpeg" />
     <meta property="og:title" content="Pernikahan Erpan - Fitri" />
     <meta property="og:description" content="Spesial mengundang untuk menghadiri pernikahan kami. Erpan - Fitri" />
     <link rel="stylesheet" href="./assets/css/w35style.css">
@@ -69,7 +69,7 @@
     <div class="music-box">
         <button class="music-box-toggle-btn">
             <audio id='song' loop>
-                <source src="./assets/music/song_marryme_train_instrumental.mp3">
+                <source src="./assets/music/hal_hebat.mp3">
             </audio>
             <button type="button" class="music" id="unmute2-sound">
                 <img border="0" alt="" src="./assets/image/web/min/dep8soundoff.png" width="20" height="20">
@@ -86,7 +86,7 @@
         <a class="tablink" onclick="openPage('Couple', this, '#3E3E3E')"><img src="./assets/image/web/min/de17tab2couple.png" width="35"><br><span>Couple</span></a>
         <a class="tablink" onclick="openPage('Eventwd', this, '#3E3E3E')"><img src="./assets/image/web/min/de17tab3event.png" width="35"><br><span>Event</span></a>
         <a class="tablink" onclick="openPage('Moment', this, '#3E3E3E')"><img src="./assets/image/web/min/de17tab4moment.png" width="35"><br><span>Moment</span></a>
-        <a class="tablink" onclick="openPage('Quotewd', this, '#3E3E3E')"><img src="./assets/image/web/min/de17tab5story.png" width="35"><br><span>Story+Wish</span></a>
+        <a class="tablink" onclick="openPage('Quotewd', this, '#3E3E3E')"><img src="./assets/image/web/min/de17tab5story.png" width="35"><br><span>Wish</span></a>
     </div>
 
     <div id="Cover" class="tabcontent">
@@ -202,7 +202,7 @@
                 <br>
                 <div class="explainbride">dan</div>
                 <br>
-                <div><img src="./assets/image/pengantin/crop2.png" width="40%" alt=""><br><span class="bridefont">Fitri
+                <div><img src="./assets/image/pengantin/crop3.png" width="40%" alt=""><br><span class="bridefont">Fitri
                         Ayu Amalia, S.Pd<span style="font-size: 13px"></span></span>
                 </div>
                 <div class="explainbride">Putri pertama dari<br>Bpk. M. Imron & Ibu Nursiah</div>
@@ -400,7 +400,7 @@
                                             <td></td>
                                         </tr>
                                         <tr align="right">
-                                            <td><a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=Nmc3Zmg0MW5jbDZubzYzcGUxNm9ocXVyMWwgcmlvYW5hbmRhcHV0cmExOTk4QG0&tmsrc=rioanandaputra1998%40gmail.com" target="_blank" style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>SaveTheDate <i class="fa fa-bell" aria-hidden="true"></i></strong></a>
+                                            <td><a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MHJxamdraTRrbTZlZmloYmJmYzZiaDJ2dmggcmlvYW5hbmRhcHV0cmExOTk4QG0&tmsrc=rioanandaputra1998%40gmail.com" target="_blank" style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>SaveTheDate <i class="fa fa-bell" aria-hidden="true"></i></strong></a>
                                             </td>
                                             <td></td>
                                             <td></td>
@@ -414,21 +414,19 @@
                 </div>
                 <div style="clear:both"></div>
                 <br>
-                <div class="explainbride" style="background-color: #2A2A2A; width: 100%; margin: auto; box-shadow: 1px 1px 5px #212121; padding: 10px; border-radius: 10px; color: white;">
+                <!-- <div class="explainbride" style="background-color: #2A2A2A; width: 100%; margin: auto; box-shadow: 1px 1px 5px #212121; padding: 10px; border-radius: 10px; color: white;">
                     <p style="font-size: 18px;"><b>Siaran Langsung</b></p>
                     <p>Temui kami secara virtual untuk menyaksikan acara pernikahan kami yang akan disiarkan langsung, dengan menekan tombol di bawah ini:</p>
                     <a href="https://zoom.us/" target="_blank"><img src="./assets/image/web/max/zoomapp.png" width="100px"></a><br><br>
-                    <!-- <p>Zoom Meeting ID : 12345<br>Zoom Password : 12345</p><br> -->
+                    <p>Zoom Meeting ID : 12345<br>Zoom Password : 12345</p><br>
                     <a href="https://www.youtube.com/" target="_blank"><img src="./assets/image/web/max/ytlogo.png" width="100px"></a><br><br>
-
-                    <!-- <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=Nmc3Zmg0MW5jbDZubzYzcGUxNm9ocXVyMWwgcmlvYW5hbmRhcHV0cmExOTk4QG0&tmsrc=rioanandaputra1998%40gmail.com" target="_blank" style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>Zoom Live <i class="fa fa-link" aria-hidden="true"></i></strong></a> -->
                 </div>
-                <br>
+                <br> -->
                 <div class="explainbride" style="background-color: #2A2A2A; width: 100%; margin: auto; box-shadow: 1px 1px 5px #212121; padding: 10px; border-radius: 10px; color: white;">
                     <p style="font-size: 18px;"><b>Kirim Hadiah</b></p>
                     <p>Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami, dapat melalui:</p>
                     <a href="https://zoom.us/" target="_blank"><img src="./assets/image/web/max/bri.png" width="100px"></a><br>
-                    <p style="font-size: 18px;" id="norekening">028501053392509</p>
+                    <p style="font-size: 18px;">Atas Nama: M. Erpan Rawando<br><span id="norekening">028501053392509</span></p>
                     <button onclick="btnRek()" style="background-color: #cf5f9e; font-family: dosis; font-size: 18px; color: white; padding: 10px 10px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"> <i class="fa fa-clipboard" aria-hidden="true"></i> Copy Rekening</button>
 
                     <!-- <p>Zoom Meeting ID : 12345<br>Zoom Password : 12345</p><br> -->
@@ -479,9 +477,9 @@
                     Bapak/Ibu/Saudara(i)<br>berkenan untuk hadir dan memberikan do'a restu<br>kepada kedua mempelai.</p>
                 <br>
                 <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.911837163143!2d105.20239821476531!3d-5.43036199606163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40d0bda1dddef5%3A0xd5fc8feda57f2461!2sPT.%20Prabu%20Tirta%20Jaya%20Lestari%20Tbk!5e0!3m2!1sid!2sid!4v1640442135463!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.9981038013849!2d105.20322572916469!3d-5.430407464667893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40d175806fbf25%3A0x8048014903b7f257!2sERPAN%20CAT&#39;HOUSE%20BANDAR%20LAMPUNG!5e0!3m2!1sid!2sid!4v1640960595559!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div><a href="https://goo.gl/maps/muLvgtps7wonu7eg6" target="_blank" style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 30px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>OpenMaps <i class="fa fa-map-marker" aria-hidden="true"></i></strong></a>
+                <div><a href="https://goo.gl/maps/PFu77Sfb5gHyYuvu8" target="_blank" style="background-color: #BEA55B; font-family: dosis; font-size: 18px; color: white; padding: 18px 30px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px"><strong>OpenMaps <i class="fa fa-map-marker" aria-hidden="true"></i></strong></a>
                 </div>
                 <br>
                 <br>
@@ -548,7 +546,7 @@
                     </div>
                     <div class="w3-row w3-grayscale-min">
                         <div class="vidline">
-                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/9tCFRiUFTwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/9tCFRiUFTwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                             <!-- <video width="100%" controls loop autoplay>
                                 <source src="./assets/video/sample.mp4" type="video/mp4">
                                 <source src="video.ogg" type="video/ogg">
@@ -633,7 +631,7 @@
             <br>
             <div class="content4pad">
                 <br>
-                <h3 style="font-family: Angelface; font-size: 38px; color: white">Story</h3>
+                <h3 style="font-family: Angelface; font-size: 38px; color: white">Kutipan</h3>
                 <p class="explainbride">Kisah Bahagia Erpan - Fitri</p>
                 <p class="explainbride">--</p>
                 <p class="explainbride">Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
@@ -643,7 +641,7 @@
                 <p class="explainbride"><b>- QS. Ar-Rum: 21 -</b></p>
                 <p class="explainbride">--</p>
                 <div class="w3-main w3-content" style="max-width:1600px;margin-top:20px">
-                    <div class="timeline">
+                    <!-- <div class="timeline">
                         <div class="container left">
                             <div class="content">
                                 <div class="bg1content">
@@ -682,7 +680,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <br>
                     <div class="">
                         <p class="explainbride">Ucapan Selamat & Doa untuk<br>Erpan - Fitri</p>
@@ -691,11 +689,12 @@
                         <div class="wishcontainer">
                             <form action="" method="post" id="formWish" onsubmit="return false">
                                 <label for="name" style="color:white;">Nama</label>
-                                <input type="text" id="name" name="name" placeholder="Nama.." required>
+                                <input type="text" id="namewish" name="name" placeholder="Nama.." required>
+                                <input type="text" id="addresswish" name="address" required hidden>
                                 <label for="presence" style="color:white;">Konfirmasi Kehadiran</label>
                                 <select name="presence" id="presence">
-                                    <option value="1">Hadir</option>
-                                    <option value="0">Tidak Bisa Hadir</option>
+                                    <option value="Hadir">Hadir</option>
+                                    <option value="Tidak Bisa Hadir">Tidak Bisa Hadir</option>
                                 </select>
                                 <label for="people" style="color:white;">Jumlah Yang Hadir</label>
                                 <select name="people" id="people">
@@ -710,16 +709,8 @@
                         </div>
                         <br>
                         <div class="wishdisplay">
-                            <table>
-                                <tr>
-                                    <td valign="top">
-                                        <img src="./assets/image/web/min/dep8wish4ava.png" width="25px">
-                                    </td>
-                                    <td style="background-color: #2A2A2A; color: white; padding-left: 8px; padding-right: 8px; border-radius: 4px; width: 100%">
-                                        <div class="wishdisplayname"></div>
-                                        <div class="" style="padding-bottom: 10px"></div>
-                                    </td>
-                                </tr>
+                            <table id="wishtable">
+
                             </table>
                         </div>
                         <br>
@@ -836,14 +827,19 @@
         var adr = getParameterByName('adr');
 
         if (!sn) {
-            sn = "-";
+            sn = "Tamu Istimewa";
         }
 
         if (!adr) {
-            document.getElementById("write").innerHTML = "<strong>" + sn + "</strong>" + "<br><span style='font-size:14px'>di Tempat</span>";
-        } else {
-            document.getElementById("write").innerHTML = "<strong>" + sn + "</strong>" + "<br><span style='font-size:14px'>di " + adr + "</span>";
+            adr = "Tempat";
         }
+
+        let repsn = sn.replace(/\-/g, " ");
+        let repadr = adr.replace(/\-/g, " ");
+
+        document.getElementById("write").innerHTML = "<strong>" + repsn + "</strong>" + "<br><span style='font-size:14px'>di " + repadr + "</span>";
+        $('#namewish').val(repsn);
+        $('#addresswish').val(repadr);
     </script>
     <script>
         function btnRek() {
@@ -858,6 +854,7 @@
     </script>
     <script>
         $(document).ready(function() {
+            reloadwish();
             $('#presence').on('change', function() {
                 if (this.value == 0 || this.value == '') {
                     $('#people').hide();
@@ -883,20 +880,54 @@
                 success: function(data) {
                     if (data.status) {
                         alert('Ucapan anda telah dikirim!');
+                        $('#formWish')[0].reset();
                     } else {
                         console.log('connection failed!');
                     }
                     $('#btnWish').text('Kirim');
                     $('#btnWish').attr('disabled', false);
+                    reloadwish();
                 },
                 error: function(jqXHR, textStatus, errorThrown) {
                     console.error(data.textStatus);
                     $('#btnWish').text('save');
                     $('#btnWish').attr('disabled', false);
+                    reloadwish();
                 }
             });
         }
     </script>
+
+    <script>
+        function reloadwish() {
+            $(".rmwish").remove();
+            $.ajax({
+                type: "GET",
+                url: "api.php",
+                processData: false,
+                contentType: false,
+                dataType: "JSON",
+                success: function(res) {
+                    $.each(res.data, function(index, value) {
+                        $("#wishtable").append(`<tr class="rmwish">
+                                    <td valign="top">
+                                        <img src="./assets/image/web/min/dep8wish4ava.png" width="25px">
+                                    </td>
+                                    <td style="background-color: #2A2A2A; color: white; padding-left: 8px; padding-right: 8px; border-radius: 4px; width: 100%">
+                                        <div class="wishdisplayname" id="wishdisplayname">` + value.name + " | " + value.address + `</div>
+                                        <div class="" style="padding-bottom: 10px" id="wishdisplaysub">` + value.presence + " | " + value.people + " Orang | " + value.create_at + `</div>
+                                        <div class="" style="padding-bottom: 10px" id="wishdisplay">` + value.wish + `</div>
+                                    </td>
+                                </tr>`);
+                    });
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error(res.textStatus);
+                }
+            });
+        }
+    </script>
+
     <script type="text/javascript" src="./assets/js/jquery-1.10.1.min.js"></script>
 </body>
 
